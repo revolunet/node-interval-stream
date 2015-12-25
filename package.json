@@ -1,5 +1,5 @@
 {
-  "name": "interval-stream",
+  "name": "node-interval-stream",
   "version": "1.0.0",
   "description": "Minimal NodeJS readable stream based on intervals",
   "license": "MIT",

@@ -1,17 +1,17 @@
-# interval-stream
+# node-interval-stream
 
-![npm](https://img.shields.io/npm/v/interval-stream.svg) ![license](https://img.shields.io/npm/l/interval-stream.svg) ![github-issues](https://img.shields.io/github/issues/revolunet/node-interval-stream.svg) ![Circle CI build status](https://circleci.com/gh/revolunet/node-interval-stream.svg?style=svg)
+![npm](https://img.shields.io/npm/v/node-interval-stream.svg) ![license](https://img.shields.io/npm/l/node-interval-stream.svg) ![github-issues](https://img.shields.io/github/issues/revolunet/node-interval-stream.svg) ![Circle CI build status](https://circleci.com/gh/revolunet/node-interval-stream.svg?style=svg)
 
 Minimal NodeJS readable stream based on intervals
 
-![nodei.co](https://nodei.co/npm/interval-stream.png?downloads=true&downloadRank=true&stars=true)
+![nodei.co](https://nodei.co/npm/node-interval-stream.png?downloads=true&downloadRank=true&stars=true)
 
 ## QuickStart
 
 
 ```js
 
-import getIntervalStream from 'interval-stream';
+import getIntervalStream from 'node-interval-stream';
 
 var stream = getIntervalStream({
     count: 10,  // iterations
