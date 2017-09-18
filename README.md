@@ -25,21 +25,41 @@ stream.on('data', data => {
 });
 ```
 
-## Dependencies
+## Tests
 
-Package | Version | Dev
---- |:---:|:---:
-[babel-cli](https://www.npmjs.com/package/babel-cli) | ^6.3.17 | ✔
-[babel-eslint](https://www.npmjs.com/package/babel-eslint) | * | ✔
-[babel-preset-es2015](https://www.npmjs.com/package/babel-preset-es2015) | * | ✔
-[babel-tape-runner](https://www.npmjs.com/package/babel-tape-runner) | * | ✔
-[babelify](https://www.npmjs.com/package/babelify) | 7.2.0 | ✔
-[eslint](https://www.npmjs.com/package/eslint) | * | ✔
-[eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) | * | ✔
-[node-readme](https://www.npmjs.com/package/node-readme) | ^0.1.8 | ✔
-[tap-spec](https://www.npmjs.com/package/tap-spec) | ^4.0.2 | ✔
-[tape](https://www.npmjs.com/package/tape) | ^4.0.0 | ✔
-[zuul](https://www.npmjs.com/package/zuul) | ^3.8.0 | ✔
+```
+  should receive 0 events in 0ms
+
+    ✔ duration should be 0 < d < 250 and is 106
+    ✔ should have 0 entries
+
+  should receive 1 events in 100ms
+
+    ✔ duration should be 100 < d < 250 and is 211
+    ✔ should have 1 entries
+
+  should receive 1 events in 10ms
+
+    ✔ duration should be 10 < d < 250 and is 22
+    ✔ should have 1 entries
+
+  should receive 10 events in 1000ms
+
+    ✔ duration should be 1000 < d < 1400 and is 1123
+    ✔ should have 10 entries
+
+  should receive 10 events in 100ms
+
+    ✔ duration should be 100 < d < 400 and is 126
+    ✔ should have 10 entries
+
+
+  total:     10
+  passing:   10
+  duration:  2.4s
+
+```
+
 
 
 ## Author
