@@ -1,6 +1,6 @@
 {
   "name": "node-interval-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal NodeJS readable stream based on intervals",
   "license": "MIT",
   "repository": "revolunet/node-interval-stream",
